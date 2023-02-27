@@ -1,0 +1,143 @@
+body {
+	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0; background:#D7D7D7;
+	margin-bottom:-20px; 
+}
+#TopMenu td { line-height:10px;  }
+#MyAccount { padding-left:50px; line-height:15px; width:400px;background:url(../SpitechLogo/icon.png) no-repeat left;}
+#MyAccount h3 { margin:0px; font-size:14px;  margin-left:-10px;}
+#MyAccount .UserID { color:#380; font-size:11px; font-weight:bolder;}
+#MyAccount .UserName { color:#009; font-size:11px;font-weight:bolder; }
+#MyAccount img {
+	 width:35px; height:40px; position:absolute; margin-top:-27px; margin-left:10px; border:1px solid gray;
+     border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;
+	 box-shadow:2px 2px 3px gray;
+ }
+#Title { color:#005E8A; font-size:13px; font-weight:bolder; vertical-align:middle; padding:0px 10px 0 10px; font-family:"Times";  }
+#Header { background:url(../SpitechImages/Header.png) repeat-x; }
+
+/*===================================( Main Menu )=====================================================*/
+#MainMenu { /*background:url(../SpitechImages/Menu.jpg) no-repeat;*/ margin:0px; padding:0px;}
+
+/*________________________________( Selected Menu )_____________________________________________________________________*/
+#MainMenu ul #Selected  
+{ 
+	background:url(../SpitechImages/MenuSelected.png) center no-repeat; 	
+	height:38px; 
+	font-size:12px;
+	font-weight:bolder; 
+	margin:0px; 	
+	width:104px;	
+	text-align:center;
+	list-style:none;
+	display:inline;
+	margin-bottom:-2px;	
+	margin-right:-11px;
+	margin-left:-10px;
+	position:relative;
+	padding-top:0px;
+	margin-top:0px;
+	border:0px;
+}
+#MainMenu ul #Selected a {	line-height:39px; color:#fff; }
+#MainMenu ul #Selected:hover a { color:#0FF; }
+/*________________________________( End Of Selected Menu )_____________________________________________________________________*/
+
+
+/*________________________________( Main Menu )_____________________________________________________________________*/
+#MainMenu ul { display:inline;}
+#MainMenu ul li  
+{ 
+	background:url(../SpitechImages/MenuTab.png) center repeat-x; 	
+	height:38px; 
+	font-size:11px;
+	font-weight:bolder; 	
+	
+	text-align:center;
+	width:60px;
+	list-style:none;	
+	margin-top:15px;
+	margin-bottom:-16px;
+	margin-left:0px; 
+	margin-right:-3px;	
+	padding-bottom:0px;	
+	border-right:1px groove darkgreen;
+	border-left:1px groove green;
+	cursor:pointer;
+	display:inline;
+}
+#MainMenu ul li a { line-height:30px;color:#80FF80; text-decoration:none; }
+#MainMenu ul li:hover { background:url(../SpitechImages/MenuHover.png) repeat-x; }
+#MainMenu ul li:hover a { color:#fff;}
+/*________________________________( Main Menu First )_____________________________________________________________________*/
+
+#MainMenu ul #First { background:url(../SpitechImages/MenuLeft.png) center no-repeat; width:70px; border:0px; display:inline; }
+#MainMenu ul #First:hover {	background:url(../SpitechImages/MenuFirstHover.png) no-repeat; }
+/*________________________________( Main Menu Last )_____________________________________________________________________*/
+#MainMenu ul #Last  { background:url(../SpitechImages/MenuLast.png) center no-repeat; width:70px; border:0px; border-left:1px groove green;display:inline;height:39px; }
+
+#MainMenu ul #Last:hover {	background:url(../SpitechImages/MenuLastHover.png) repeat-x; }
+
+/*=================================================================( End Of Main Menu )==========================================================================================*/
+/*===============================================================================================================================================================================*/
+
+/*===================================( Sub Menu )=====================================================*/
+#SubMenu { position:relative; background:url(../SpitechImages/SubMenuCenter.jpg) top repeat-x ;position:relative; height:40px;  }
+/*#SubMenu #SubMenuFirst { background:url(../SpitechImages/SubMenuLeft.jpg) no-repeat top left; width:20px; height:90px;position:relative;}
+#SubMenu #SubMenuCenter { background:url(../SpitechImages/SubMenuCenter.jpg) top repeat-x ;position:relative; height:90px;}
+#SubMenu #SubMenuLast { background:url(../SpitechImages/SubMenuRight.jpg) top right no-repeat ;width:30px;position:relative;}*/
+#SubMenu div { padding:0px; text-align:center; line-height:40px; margin-top:10px;}
+#SubMenu a {  margin-left:15px; color:#8B514E; text-decoration:none;  padding:5px 5px 5px 5px;}
+#SubMenu a img { width:35px; height:35px;  text-decoration:none; border:0px; margin-bottom:3px; padding-right:2px; opacity:0.7; }
+#SubMenu a:hover { color:red;  transition:all .5s ease; }
+#SubMenu a:hover img { opacity:1; transition:all .5s ease;}
+
+/*===================================( End Of Sub Menu )=====================================================*/
+@media print { 
+#TopMenu, #Header, #MainMenu, #Footer, #DontPrint, #dintprint, .DontPrint, .dintprint { display:none; margin-top:10px; }
+H1 { margin-top:15px; }
+body { background:white; }
+}
+h1
+{
+	
+  background: url(../SpitechImages/H1.png) repeat-x;
+ font-family: Times; 
+ color:#005E8A; font-size:18px; font-weight:bolder;
+ /*text-shadow:2PX -2PX BLACK;*/
+   	font-weight:BOLDER;		
+	text-align:left;
+	width:99%;	
+	
+	margin-bottom:0px;
+	height:25px;
+	line-height:25px;
+	margin-left:1%;
+	padding-top:5px; padding-bottom:0px;
+	
+	text-transform:capitalize;
+
+	box-shadow: 3px 3px 5px #888888;
+	-moz-box-shadow: 3px 3px 5px #888888;
+	-o-box-shadow: 3px 3px 5px #888888;
+	-webkit-box-shadow: 3px 3px 5px #888888;	
+	border:1px ridge #000;	
+	margin-bottom:-0px;
+	margin-top:0px;
+	
+	
+}
+h1 #Left { background:url(../SpitechImages/Home.png) no-repeat center; width:50px; }
+h1 span { color:#aa0000; font-family:"arial"; font-size:15px; }
+h1 b { color:#09000; font-family:"arial"; font-size:15px; }
+h1 font { color:#F90; font-family:"arial"; font-size:15px; font-weight:bolder; text-shadow:1px 1px black; }
+h1 #AddNew { float:right; margin-right:50px; position:relative; padding-top:0px; }
+h1 #AddNew a { height:35px; margin-top:0px; padding-left:40px; text-transform:capitalize; background:url(../SpitechImages/AddNew.png) no-repeat; border:0px; cursor:pointer; color:#060;font-weight:bolder; font-size:13px; padding-top:0px; padding-bottom:0px;margin-top:0px; line-height:35px; margin-top:-5px; }
+h1 #AddNew a:active, h1 #AddNew a:after, h1 #AddNew a:focus {-moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+h1 #AddNew a:hover { background:url(../SpitechImages/AddNewHover.png) no-repeat; color:#005B88; font-weight:bolder;}
+h1 img { width:30px; height:30px; margin-left:5px; margin-right:5px; margin-top:0px; margin-bottom:5px;}
+h1 #AddNew { float:right; margin-right:50px;  margin-bottom:-25px; margin-top:-25px; line-height:35px; }
+h1 #AddNew a img { margin-top:-5px; }

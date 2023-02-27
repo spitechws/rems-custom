@@ -1,0 +1,16 @@
+--Repository
+https://github.com/spitechws/rems-custom
+
+--server-details
+domain : rems-custom.pronerostaging.in
+
+--ftp
+host: ftp://staticserver.in
+user: u103431999.remscustom
+pass: Meta@123456
+
+
+--db
+URL: https://auth-db931.hstgr.io/
+user: u103431999_remscustom
+pass: 2qE|t5A&KC
